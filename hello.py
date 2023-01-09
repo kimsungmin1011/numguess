@@ -1,3 +1,3 @@
-#Set username
-username="John Doe"
-print("Hello,", username)
+import random
+answer=random.randit(1,20)
+print(answer)
