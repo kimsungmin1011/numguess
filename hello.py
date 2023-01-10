@@ -1,3 +1,12 @@
 import random
-answer=random.randit(1,20)
+answer=random.randit(1,100)
 print(answer)
+
+#Don't do
+animals=['cat','dog']
+
+#Do
+menus=[
+    'Cola',
+    'Cutlet',
+]
