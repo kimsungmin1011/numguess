@@ -6,8 +6,9 @@ answer=randint(0,100)
 #User interaction
 username=input("Hi there, What is your name?")
 print(f"Hi, {username}! Please be my guest!")
-
-while 1:
+i=0
+while i<5:
+    i+=1
     guess=int(input(f"So {username}, Guess the number(1~100): "))
     print(f"Well choice {username}~ You picked {guess}!!")
 
