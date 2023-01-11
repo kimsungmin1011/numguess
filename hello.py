@@ -8,6 +8,7 @@ username=input("Hi there, What is your name?")
 print(f"Hi, {username}! Please be my guest!")
 def game():
   i=0
+  point=0
   while i<5:
       i+=1
       guess=int(input(f"So {username}, Guess the number(1~100): "))
@@ -22,6 +23,8 @@ def game():
           print('********************')
           sleep(1)
           print(f'You got it right!! The answer is {answer}!!')
+          point+=100
+          return f"You got {point} scores!!"
           break
       elif guess>answer:
           print(f'Keep going man~! That was too high {username}')
