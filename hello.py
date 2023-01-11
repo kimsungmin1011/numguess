@@ -24,7 +24,7 @@ def game():
           sleep(1)
           print(f'You got it right!! The answer is {answer}!!')
           point+=100
-          return f"You got {point} scores!!"
+          print(f"You got {point} scores!!")
           break
       elif guess>answer:
           print(f'Keep going man~! That was too high {username}')
